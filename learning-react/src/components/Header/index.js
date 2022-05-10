@@ -1,16 +1,12 @@
+import { NavigationTop } from './NavigationTop';
+
 import './index.css';
 
-function Header(){
+function Header(props){
     return(
-        <div className="container">
-            <ul>
-                <li>Home</li>
-                <li>Produtos</li>
-                <li>Contato</li>
-                <li>Sobre</li>
-            </ul>
+        <div className="nav">
+            <NavigationTop/>
         </div>
     );
 }
-
 export default Header;
