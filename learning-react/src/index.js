@@ -102,6 +102,3 @@ root.render(
     <FooterContainer />
   </div>
 );
-
-// Necessário reorganizar a estrutura de pastas, pois está meio confusa.
-// Encontrar problema no componente SiteLogo, pois não está sendo exibido corretamente.a
